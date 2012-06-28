@@ -21,7 +21,13 @@ describe("Unit testing for Calculator", function() {
   	});		
   });
 
+  describe("Unit test for sub operation", function() {
+  	it("should operands are numbers", function() {
+    	var result = calculator.sum('a','b');
+    	expect(result).toBe(null);
+  	});
 
+  });
   
 
 });
